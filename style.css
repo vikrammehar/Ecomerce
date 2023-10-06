@@ -78,9 +78,9 @@ to{transform: rotateY(360deg);}}
     p{display: none;}
     header img{left: 38vw;}
     header h2{left: 35vw;
-    top: 136px;}
-     header h3{left: 26vw;
-    top: 162px;}
+    top: 135px;}
+     header h3{left: 30vw;
+    top: 160px;}
     .two{left: 90vw;}
     nav,ul{height: 60px;
     justify-content: center;
@@ -101,7 +101,7 @@ to{transform: rotateY(360deg);}}
       background-image: url('https://source.unsplash.com/1000x300/?laptop,it');
     }
     100% {
-      background-image: url('https://source.unsplash.com/1000x300/?girl,style'); /* Loop back to the first image */
+      background-image: url('https://source.unsplash.com/1000x300/?girl,style');
     }
   }
   main h1{text-align: center;
@@ -141,23 +141,40 @@ margin: 10px 40px;}
     transition: none;
     margin:0;
   }
+  .red{height: 55vh;}
+  
   main{margin: 30px 0;
-  height: 390vh;}
+  height: 310vh;}
   .pink{margin:0 0 0 30px;}
   .img2:hover{width: 170px;
   height: 200px;}
   }
+  @media (max-width:460px) {main{height: 250vh;}
+  .on,.tw,.three,.four,.five,.six{width: 350px;
+    margin: 0;
+    padding: 0;
+  text-align: start;}
+  .redy{justify-content: flex-start;
+  align-content: flex-start;
+margin: 0;
+height: 100vh;}
+.red{height: 30vh;}
+
+  }
+@media (max-height:400px) {main{height: 500vh;}
+
+}
 
 
 
   .redy{width: 80vw;
-    height: 80vh;
+    height: 85vh;
     background-image: url(1_newtallhero._SY1500_QL85_.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:top;
     color: white;
-    margin: 20vh 10vw ;
+    margin: 15vh 10vw ;
     display: grid;
     grid-template-columns:auto auto auto ;
     font-family: 'Karla', sans-serif;
@@ -165,17 +182,15 @@ margin: 10px 40px;}
     .on,.tw,.three,.four,.five,.six{color: rgba(22, 88, 99, 0.808);
       background: #b4368a98;
     text-align: center;
-    box-sizing: border-box;
+   
     }
     .redy h1{margin: 30px 0;}
-    @media (max-width:500px) {.redy{grid-template-columns: 200px;
+    @media (max-width:600px) {.redy{grid-template-columns: 200px;
         width: 100vw;
-        height: 100vh;
-        margin: 0 ;
-        justify-content:center;                           
-                                    
+        height: 120vh;
+        margin: 5vh 2px ;
+        justify-content: center;
     }
-     .on,.tw,.three,.four,.five,.six{width:300px;}                         
     .redy h1{text-align: left;
     padding-left: 5px;}
         
@@ -183,6 +198,12 @@ margin: 10px 40px;}
     footer h2{text-align: center;
       font-family: 'Croissant One', cursive;
     margin-top:300px ;}
+
+  
+  
+
+    
+
 
   
   
